@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brown rabbit test</title>
+    <link rel="stylesheet" href="css/resets.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="assets/logo-white.png" alt="Logo" />
+      <div class="nav-wrapper">
+        <div class="search-wrapper">
+            <div  class="search-bar">
+              <button id="search-icon-button" aria-label="search button">
+            <img src="assets/icons/search.svg" alt="">
+          </button>
+          <input type="search" id="search" placeholder="Search..." />
+        </div>
+          <div class="icons">
+            <img src="assets/icons/linkedin-white.svg" alt="" />
+            <img src="assets/icons/twitter-white.svg" alt="" />
+            <img src="assets/icons/instagram-white.svg" alt="" />
+            <img src="assets/icons/facebook-white.svg" alt="" />
+          </div>
+        </div>
+        <nav>
+          <ul>
+            <li class="links">
+              <a href="#">About us</a>
+              <a href="#">Events</a>
+              <a href="#">Nordic roaster</a>
+              <a href="#">Results</a>
+              <a href="#">Links</a>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+       <button id="burger-menu-button">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currnetColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+      <nav id="burger-menu">
+        <button id="close-button">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+        <ul>
+          <li class="links">
+            <a href="#">About us</a>
+            <a href="#">Events</a>
+            <a href="#">Nordic roaster</a>
+            <a href="#">Results</a>
+            <a href="#">Links</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="icons">
+          <div class="icons">
+            <img src="assets/icons/linkedin-white.svg" alt="" />
+            <img src="assets/icons/twitter-white.svg" alt="" />
+            <img src="assets/icons/instagram-white.svg" alt="" />
+            <img src="assets/icons/facebook-white.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <div class="top-banner"></div>
+    <main>
+      <section id="hero">
+        <div class="slider">
+          <div
+            class="slide"
+            style="
+              background-image: url('assets/images/banner/coffe_banner-1.jpg');
+            "
+          ></div>
+          <div
+            class="slide"
+            style="
+              background-image: url('assets/images/banner/coffe_banner-2.jpg');
+            "
+          ></div>
+          <div
+            class="slide"
+            style="
+              background-image: url('assets/images/banner/coffe_banner-3.jpg');
+            "
+          ></div>
+        </div>
+        <div class="buttons" >
+          <button
+            id="prev"
+            class="slider-button exclude"
+            aria-label="Previous slide"
+          ></button>
+          <button
+            id="next"
+            class="slider-button exclude"
+            aria-label="Next slide"
+          ></button>
+        </div>
+        <div id="quote"></div>
+      </section>
+      <section id="main-content">
+        <div class="post-wrapper">
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-1.png" alt="" />
+            <div class="text-content">
+              <h1>Wonderful Copenhagen 2021</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident distinctio perferendis aut possimus? Maxime laboriosam
+                distinctio, doloremque aliquam consequuntur pariatur
+                perspiciatis nesciunt fuga voluptas quisquam maiores, eveniet
+                numquam inventore et! Vitae sunt blanditiis sapiente suscipit
+                numquam, voluptatibus dolorem! Ullam blanditiis adipisci
+                perferendis nostrum aperiam maiores fugit voluptatum veniam!
+                Dicta aut similique nisi laudantium et temporibus explicabo
+                vitae labore nostrum dolor. Eaque dolorum perferendis
+                distinctio, perspiciatis fugit in provident illum repudiandae
+                dignissimos accusantium. Nobis blanditiis, laborum veritatis non
+                doloremque praesentium similique a iste sit dolore fuga
+                voluptatem quo vero et ratione. Porro qui unde maxime suscipit
+                rem esse dolore in enim. Consectetur enim, nemo blanditiis, a
+                voluptas nulla maiores dolorem est aspernatur eius, nihil
+                recusandae. Esse, aperiam dolores? Maxime, exercitationem.
+                Quasi! Tenetur reprehenderit aliquam, eligendi, harum eum modi
+                similique beatae eveniet, odio ipsa consectetur eaque. Sequi
+                quasi culpa veritatis delectus tempore ut, molestiae ullam rem,
+                et inventore odit in, vel velit!
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-2.png" alt="" />
+            <div class="text-content">
+              <h1>The most expensive coffee on the market</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quaerat alias excepturi eligendi repellat dicta dolor harum
+                accusantium adipisci corporis similique? Quos praesentium culpa,
+                totam deserunt quisquam a molestias sunt veniam! Ratione fugiat
+                reprehenderit eaque optio ullam ut vero exercitationem libero
+                quod. Quibusdam doloremque quam fugiat veniam provident officiis
+                velit ipsum, dicta omnis, illo deleniti pariatur tempore
+                voluptatum a saepe atque. Repellendus magnam doloribus
+                necessitatibus mollitia. Laborum quae amet ullam cumque incidunt
+                vitae numquam aliquam eum quo dolorem sed eaque, eius alias
+                maiores. Amet, ad? Officiis sunt exercitationem velit placeat
+                maiores! Enim inventore quibusdam praesentium beatae culpa quas
+                harum saepe eius placeat repellat reiciendis non dolor,
+                excepturi exercitationem soluta est ex debitis libero eveniet
+                sunt, illo facere, ducimus atque. Ducimus, saepe! Vero iure nisi
+                voluptates magnam nam cupiditate unde veniam eaque architecto
+                totam nemo explicabo, nostrum vitae, eum dolore, qui aspernatur.
+                At in voluptas necessitatibus molestiae doloremque inventore
+                saepe praesentium. Praesentium.
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-3.png" alt="" />
+            <div class="text-content">
+              <h1>10 types of coffee beans you neek to know</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Pariatur vel natus nemo doloribus! Accusamus omnis delectus,
+                assumenda pariatur ipsum, incidunt fugit saepe id ex accusantium
+                corrupti, enim quibusdam at voluptas. Voluptate assumenda
+                repellat illo repellendus fugiat voluptas qui possimus alias,
+                dolor id quas ullam tempore officiis molestias. Reiciendis sunt
+                doloribus est vel ab molestiae officia sapiente! Velit
+                voluptatum sunt facere. Aspernatur, voluptatibus. Dolorum
+                possimus eveniet natus ea repellendus consequatur vero laborum
+                pariatur ab tempore excepturi saepe amet quod, vitae iusto
+                dolorem est asperiores? Consequuntur ea pariatur eveniet maxime
+                in? Perferendis. Molestiae ipsa recusandae iste voluptas dolore
+                dolor quae, possimus eaque quidem dolorem rerum explicabo,
+                suscipit vel corporis quis blanditiis laudantium veniam
+                laboriosam! Odit quam incidunt, beatae veniam fuga at
+                reprehenderit! Dolorem et tempora laboriosam corrupti aliquam
+                tempore facere provident, illo autem repudiandae sapiente iure
+                placeat nesciunt, nemo qui commodi? Quae a consequatur et veniam
+                quos libero reprehenderit obcaecati iste cupiditate?
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-4.png" alt="" />
+            <div class="text-content">
+              <h1>Challange your barista skills to the max</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                possimus nisi provident debitis molestias optio atque quasi id
+                illum alias culpa, recusandae excepturi asperiores qui ex
+                impedit? Mollitia, consequuntur libero! Odit necessitatibus eos
+                officia blanditiis impedit itaque sit, earum quaerat rerum quis
+                fugit soluta exercitationem architecto quia animi asperiores
+                amet? Numquam voluptatibus sed saepe provident placeat fugit
+                odio veniam harum? Accusamus voluptate esse amet quas, beatae
+                libero! Harum voluptates itaque quidem tempore possimus, quos,
+                esse perferendis, repellat laboriosam totam nihil commodi vitae
+                similique ea vero. A quaerat eius sapiente ut. Cumque, accusamus
+                minus qui dignissimos quae doloremque eos deleniti ullam
+                possimus. Consequuntur quam eveniet rem officiis doloremque
+                voluptatibus, odio error, itaque nemo explicabo ratione? Qui,
+                facere ducimus! Consectetur, sed perferendis. Quaerat quas
+                dolorem officia tempora dolore tenetur, totam possimus dolorum
+                facilis, cupiditate praesentium voluptatum vel doloribus qui
+                illum eum similique deleniti cumque sequi nulla debitis placeat
+                earum labore incidunt? Earum!
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-4.png" alt="" />
+            <div class="text-content">
+              <h1>Challange your barista skills to the max</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                possimus nisi provident debitis molestias optio atque quasi id
+                illum alias culpa, recusandae excepturi asperiores qui ex
+                impedit? Mollitia, consequuntur libero! Odit necessitatibus eos
+                officia blanditiis impedit itaque sit, earum quaerat rerum quis
+                fugit soluta exercitationem architecto quia animi asperiores
+                amet? Numquam voluptatibus sed saepe provident placeat fugit
+                odio veniam harum? Accusamus voluptate esse amet quas, beatae
+                libero! Harum voluptates itaque quidem tempore possimus, quos,
+                esse perferendis, repellat laboriosam totam nihil commodi vitae
+                similique ea vero. A quaerat eius sapiente ut. Cumque, accusamus
+                minus qui dignissimos quae doloremque eos deleniti ullam
+                possimus. Consequuntur quam eveniet rem officiis doloremque
+                voluptatibus, odio error, itaque nemo explicabo ratione? Qui,
+                facere ducimus! Consectetur, sed perferendis. Quaerat quas
+                dolorem officia tempora dolore tenetur, totam possimus dolorum
+                facilis, cupiditate praesentium voluptatum vel doloribus qui
+                illum eum similique deleniti cumque sequi nulla debitis placeat
+                earum labore incidunt? Earum!
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-4.png" alt="" />
+            <div class="text-content">
+              <h1>Challange your barista skills to the max</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                possimus nisi provident debitis molestias optio atque quasi id
+                illum alias culpa, recusandae excepturi asperiores qui ex
+                impedit? Mollitia, consequuntur libero! Odit necessitatibus eos
+                officia blanditiis impedit itaque sit, earum quaerat rerum quis
+                fugit soluta exercitationem architecto quia animi asperiores
+                amet? Numquam voluptatibus sed saepe provident placeat fugit
+                odio veniam harum? Accusamus voluptate esse amet quas, beatae
+                libero! Harum voluptates itaque quidem tempore possimus, quos,
+                esse perferendis, repellat laboriosam totam nihil commodi vitae
+                similique ea vero. A quaerat eius sapiente ut. Cumque, accusamus
+                minus qui dignissimos quae doloremque eos deleniti ullam
+                possimus. Consequuntur quam eveniet rem officiis doloremque
+                voluptatibus, odio error, itaque nemo explicabo ratione? Qui,
+                facere ducimus! Consectetur, sed perferendis. Quaerat quas
+                dolorem officia tempora dolore tenetur, totam possimus dolorum
+                facilis, cupiditate praesentium voluptatum vel doloribus qui
+                illum eum similique deleniti cumque sequi nulla debitis placeat
+                earum labore incidunt? Earum!
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="assets/images/posts/Post thumbnail-4.png" alt="" />
+            <div class="text-content">
+              <h1>Challange your barista skills to the max</h1>
+              <h5>Published 12/07/2021</h5>
+              <p class="text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+                possimus nisi provident debitis molestias optio atque quasi id
+                illum alias culpa, recusandae excepturi asperiores qui ex
+                impedit? Mollitia, consequuntur libero! Odit necessitatibus eos
+                officia blanditiis impedit itaque sit, earum quaerat rerum quis
+                fugit soluta exercitationem architecto quia animi asperiores
+                amet? Numquam voluptatibus sed saepe provident placeat fugit
+                odio veniam harum? Accusamus voluptate esse amet quas, beatae
+                libero! Harum voluptates itaque quidem tempore possimus, quos,
+                esse perferendis, repellat laboriosam totam nihil commodi vitae
+                similique ea vero. A quaerat eius sapiente ut. Cumque, accusamus
+                minus qui dignissimos quae doloremque eos deleniti ullam
+                possimus. Consequuntur quam eveniet rem officiis doloremque
+                voluptatibus, odio error, itaque nemo explicabo ratione? Qui,
+                facere ducimus! Consectetur, sed perferendis. Quaerat quas
+                dolorem officia tempora dolore tenetur, totam possimus dolorum
+                facilis, cupiditate praesentium voluptatum vel doloribus qui
+                illum eum similique deleniti cumque sequi nulla debitis placeat
+                earum labore incidunt? Earum!
+              </p>
+              <button class="read-more">Read More</button>
+            </div>
+          </div>
+          <div id="pagination">
+            <button>Previous</button>
+            <span></span>
+            <button>Next</button>
+          </div>
+        </div>
+        <aside>
+          <div class="aside-wrapper">
+            <div class="content">
+              <h1>WBC Shop</h1>
+              <p>Shopping cart empty</p>
+              <button>Visit shop</button>
+            </div>
+            <div class="content">
+              <h1>Next Event</h1>
+              <p>World Barista Cup 2021</p>
+              <p>Copenhagen, Denmark</p>
+              <p>Dates : 25th + 27th August 2021</p>
+              <p>Theme : SENSORY</p>
+              <button>Sign-up now</button>
+            </div>
+            <div class="content">
+              <h1>Scoreboard</h1>
+              <p>List of winners from last year</p>
+              <p>2021 - ?</p>
+              <p>2020 - Denmark</p>
+              <p>2021 - Sweden</p>
+              <p>2021 - Turkey</p>
+              <p>2021 - Italy</p>
+              <p>2021 - Norway</p>
+              <p>2021 : Germany</p>
+            </div>
+          </div>
+        </aside>
+      </section>
+    </main>
+    <section id="sponsors">
+      <h2>Nordic Barista Cup Sponsors</h2>
+      <div id="sponsor-logos">
+        <Img src="assets/images/sponsors/sponsor-1.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-2.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-3.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-4.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-5.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-6.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-7.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-8.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-9.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-10.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-11.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-12.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-13.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-14.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-15.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-16.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-17.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-18.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-19.png"></Img>
+        <Img src="assets/images/sponsors/sponsor-20.png"></Img>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-top">
+        <img src="assets/logo-white.svg" alt="Logo" />
+           <div class="icons ficons">
+        <img src="assets/icons/linkedin-white.svg" alt="" />
+        <img src="assets/icons/twitter-white.svg" alt="" />
+        <img src="assets/icons/instagram-white.svg" alt="" />
+        <img src="assets/icons/facebook-white.svg" alt="" />
+      </div>
+    </div>
+      <div class="footer-bottom">
+<div class="about">
+    <h2>About World Barista Cup</h2>
+    <h5>The vision within The Barista Cup</h5>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quam fuga sunt illo, itaque dolorum voluptatum veritatis assumenda quaerat sed? Libero inventore perspiciatis modi neque facilis ipsam explicabo quia qui?
+    Tempora deleniti eius cumque quos sunt facilis architecto nemo. Modi, maiores aperiam eveniet quia eum assumenda pariatur libero molestias autem nesciunt consectetur amet mollitia atque asperiores debitis enim itaque. Similique?</p>
+</div>
+<div class="insta-feed">
+    <h4>Instagram Feed</h4>
+    <div class="insta-icons">
+    <img src="assets/images/instagram-feed/instagram-image-1.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-2.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-3.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-4.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-5.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-6.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-7.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-8.png" alt="">
+    <img src="assets/images/instagram-feed/instagram-image-9.png" alt="">
+</div>
+</div>
+<div class="contact">
+    <h2>Contact</h2>
+    <h5>World Barista Cup</h5>
+    <p>Amagertorv 13</p>
+    <p>1160 Copenhagen K</p>
+    <p>+45 33 12 04 28</p>
+    <p>CVR: 11427693</p>
+    <p>Email: info@worldbaristacup.com</p>
+</div>
+      </div>
+    </footer>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </body>
+</html>
