@@ -26,6 +26,7 @@ body {
 
 h1 {
   font-size: 40px;
+  line-height: 1;
 }
 
 h2 {
@@ -255,10 +256,15 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 5rem;
+  gap: 4rem;
 }
 
 .insta-feed {
   place-self: center;
+}
+
+.insta-feed h4 {
+  padding: 0 0 2rem 0;
 }
 
 .insta-icons {
